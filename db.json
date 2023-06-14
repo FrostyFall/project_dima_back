@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$Xa/.AxJjt.VvjQAaLz401OvT44Roqq2NKukqvlDpAr6GwK3UYzoeS",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "user@mail.com",
+      "password": "$2a$10$KggWESZ038rxSsW7jEHzheoNP5lOsAjcMbZmCEmj.fSaSjs2OBegW",
+      "role": "user",
+      "address": null,
+      "id": 2
+    },
+    {
+      "email": "manager@mail.com",
+      "password": "$2a$10$KggWESZ038rxSsW7jEHzheoNP5lOsAjcMbZmCEmj.fSaSjs2OBegW",
+      "role": "manager",
+      "id": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Накормим.бай",
+      "description": "Доставка 5 руб. Бесплатно от 20 руб.",
+      "deliveryInfo": {
+        "minTime": 50,
+        "maxTime": 90,
+        "minPrice": 14
+      },
+      "reviews": {
+        "score": 4.3,
+        "count": 114
+      },
+      "productTypeRange": [1, 2, 4],
+      "location": "витебск"
+    },
+    {
+      "id": 2,
+      "name": "Дом папочки. Пироги",
+      "description": "Доставка 4 руб. Бесплатно от 30 руб.",
+      "deliveryInfo": {
+        "minTime": 40,
+        "maxTime": 60,
+        "minPrice": 18
+      },
+      "reviewsInfo": {
+        "score": 4.8,
+        "count": 67
+      },
+      "productTypeRange": [1, 5, 8],
+      "location": "витебск"
+    },
+    {
+      "id": 3,
+      "name": "ОкПирог",
+      "description": "Доставка 5 руб. Бесплатно от 40 руб.",
+      "deliveryInfo": {
+        "minTime": 50,
+        "maxTime": 70,
+        "minPrice": 20
+      },
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "productTypeRange": [2, 3, 6],
+      "location": "минск"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "пеперони",
+        "соус томатный"
+      ]
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "пицца"
+    },
+    {
+      "id": 2,
+      "name": "шаурма"
+    },
+    {
+      "id": 3,
+      "name": "суши"
+    },
+    {
+      "id": 4,
+      "name": "бургеры"
+    },
+    {
+      "id": 5,
+      "name": "супы"
+    },
+    {
+      "id": 6,
+      "name": "горячие блюда"
+    },
+    {
+      "id": 7,
+      "name": "шашлык"
+    },
+    {
+      "id": 8,
+      "name": "салаты"
+    }
+  ]
+}
