@@ -3,20 +3,22 @@
     {
       "email": "admin@mail.com",
       "password": "$2a$10$Xa/.AxJjt.VvjQAaLz401OvT44Roqq2NKukqvlDpAr6GwK3UYzoeS",
-      "role": "admin",
+      "roles": ["user", "admin"],
+      "deliveryAddress": null,
       "id": 1
     },
     {
       "email": "user@mail.com",
       "password": "$2a$10$KggWESZ038rxSsW7jEHzheoNP5lOsAjcMbZmCEmj.fSaSjs2OBegW",
-      "role": "user",
-      "address": null,
+      "roles": ["user"],
+      "deliveryAddress": null,
       "id": 2
     },
     {
       "email": "manager@mail.com",
       "password": "$2a$10$KggWESZ038rxSsW7jEHzheoNP5lOsAjcMbZmCEmj.fSaSjs2OBegW",
-      "role": "manager",
+      "roles": ["user", "manager"],
+      "deliveryAddress": null,
       "id": 3
     }
   ],
@@ -74,10 +76,8 @@
     {
       "id": 1,
       "companyId": 1,
-      "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
-      },
+      "productTypeId": 1,
+      "name": "Пеперони",
       "size": 30,
       "weight": 650,
       "ingredientsRange": [
@@ -85,7 +85,11 @@
         "сыр 'Моцарелла'",
         "пеперони",
         "соус томатный"
-      ]
+      ],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      }
     }
   ],
   "productTypes": [
