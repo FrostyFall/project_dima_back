@@ -30,14 +30,29 @@
       "deliveryInfo": {
         "minTime": 50,
         "maxTime": 90,
-        "minPrice": 14
+        "minPrice": 14,
+        "deliveryPrice": null
       },
-      "reviews": {
+      "reviewsInfo": {
         "score": 4.3,
         "count": 114
       },
-      "productTypeRange": [1, 2, 4],
-      "location": "витебск"
+      "productTypeRange": [
+        {
+          "id": 1,
+          "name": "пиццы"
+        },
+        {
+          "id": 2,
+          "name": "шаурма"
+        },
+        {
+          "id": 4,
+          "name": "бургеры"
+        }
+      ],
+      "location": "витебск",
+      "paymentMethods": [{ "id": 1, "name": "cash", "nameRu": "наличными" }]
     },
     {
       "id": 2,
@@ -46,14 +61,31 @@
       "deliveryInfo": {
         "minTime": 40,
         "maxTime": 60,
-        "minPrice": 18
+        "minPrice": 18,
+        "deliveryPrice": 7
       },
       "reviewsInfo": {
         "score": 4.8,
         "count": 67
       },
-      "productTypeRange": [1, 5, 8],
-      "location": "витебск"
+      "productTypeRange": [
+        {
+          "id": 1,
+          "name": "пицца"
+        },
+        {
+          "id": 5,
+          "name": "супы"
+        },
+        {
+          "id": 8,
+          "name": "салаты"
+        }
+      ],
+      "location": "витебск",
+      "paymentMethods": [
+        { "id": 2, "name": "card-online", "nameRu": "картой онлайн" }
+      ]
     },
     {
       "id": 3,
@@ -62,22 +94,68 @@
       "deliveryInfo": {
         "minTime": 50,
         "maxTime": 70,
-        "minPrice": 20
+        "minPrice": 20,
+        "deliveryPrice": 5
       },
       "reviewsInfo": {
         "score": 4.5,
         "count": 31
       },
-      "productTypeRange": [2, 3, 6],
-      "location": "минск"
+      "productTypeRange": [
+        {
+          "id": 2,
+          "name": "шаурма"
+        },
+        {
+          "id": 3,
+          "name": "суши"
+        },
+        {
+          "id": 6,
+          "name": "горячие блюда"
+        }
+      ],
+      "location": "минск",
+      "paymentMethods": [
+        { "id": 3, "name": "card-courier", "nameRu": "картой курьеру" }
+      ]
     }
+  ],
+  "paymentMethods": [
+    { "id": 1, "name": "cash", "nameRu": "наличными" },
+    { "id": 2, "name": "card-online", "nameRu": "картой онлайн" },
+    { "id": 3, "name": "card-courier", "nameRu": "картой курьеру" }
   ],
   "products": [
     {
       "id": 1,
       "companyId": 1,
-      "productTypeId": 1,
-      "name": "Пеперони",
+      "productType": {
+        "id": 1,
+        "name": "пиццы"
+      },
+      "name": "Пицца 'Пеперони'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "пеперони",
+        "соус томатный"
+      ],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      }
+    },
+    {
+      "id": 2,
+      "companyId": 1,
+      "productType": {
+        "id": 1,
+        "name": "пиццы"
+      },
+      "name": "Пицца 'Кок в рот'",
       "size": 30,
       "weight": 650,
       "ingredientsRange": [
@@ -95,35 +173,43 @@
   "productTypes": [
     {
       "id": 1,
-      "name": "пицца"
+      "name": "pizza",
+      "nameRu": "пиццы"
     },
     {
       "id": 2,
-      "name": "шаурма"
+      "name": "shaurma",
+      "nameRu": "шаурма"
     },
     {
       "id": 3,
-      "name": "суши"
+      "name": "sushi",
+      "nameRu": "суши"
     },
     {
       "id": 4,
-      "name": "бургеры"
+      "name": "burgers",
+      "nameRu": "бургеры"
     },
     {
       "id": 5,
-      "name": "супы"
+      "name": "soups",
+      "nameRu": "супы"
     },
     {
       "id": 6,
-      "name": "горячие блюда"
+      "name": "hot meals",
+      "nameRu": "горячие блюда"
     },
     {
       "id": 7,
-      "name": "шашлык"
+      "name": "sashlik",
+      "nameRu": "шашлык"
     },
     {
       "id": 8,
-      "name": "салаты"
+      "name": "salads",
+      "nameRu": "салаты"
     }
   ]
 }
