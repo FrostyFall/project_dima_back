@@ -56,11 +56,11 @@
       ],
       "location": "витебск",
       "paymentMethods": [{ "id": 1, "name": "cash", "nameRu": "наличными" }],
-      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
+      "imgUrl": "https://media.tenor.com/Mt27F5cM8bYAAAAd/cmon-lets-go.gif"
     },
     {
       "id": 2,
-      "name": "Дом папочки. Пироги",
+      "name": "Дом папочки.пироги",
       "description": "Доставка 4 руб. Бесплатно от 30 руб.",
       "deliveryInfo": {
         "minTime": 40,
@@ -93,11 +93,11 @@
       "paymentMethods": [
         { "id": 2, "name": "card-online", "nameRu": "картой онлайн" }
       ],
-      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
+      "imgUrl": "https://media.tenor.com/gYS26y8Rj8AAAAAC/gachi-gachimuchi.gif"
     },
     {
       "id": 3,
-      "name": "ОкПирог",
+      "name": "Ок.кок",
       "description": "Доставка 5 руб. Бесплатно от 40 руб.",
       "deliveryInfo": {
         "minTime": 50,
@@ -130,7 +130,7 @@
       "paymentMethods": [
         { "id": 3, "name": "card-courier", "nameRu": "картой курьеру" }
       ],
-      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
+      "imgUrl": "https://cs10.pikabu.ru/post_img/2020/06/10/9/1591799046180621192.jpg"
     }
   ],
   "paymentMethods": [
@@ -185,7 +185,8 @@
         "score": 4.9,
         "count": 15
       },
-      "price": 69
+      "price": 69,
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA84Z5g_UYze_i_4_tvoGcfwiKfUvX8MdLNQ&usqp=CAU"
     },
     {
       "id": 3,
@@ -203,7 +204,8 @@
         "score": 4.2,
         "count": 20
       },
-      "price": 5
+      "price": 5,
+      "imgUrl": "https://media.tenor.com/8iMyvddJvmIAAAAd/gachimuchi-steve-rambo.gif"
     },
     {
       "id": 4,
@@ -221,7 +223,8 @@
         "score": 3.7,
         "count": 4
       },
-      "price": 30
+      "price": 30,
+      "imgUrl": "https://media.tenor.com/axKcWYnoU3gAAAAC/gachi-gachimuchi.gif"
     },
     {
       "id": 1,
@@ -231,20 +234,51 @@
         "name": "pizza",
         "nameRu": "пиццы"
       },
-      "name": "Пицца 'Пеперони'",
-      "size": 30,
-      "weight": 650,
+      "name": "Пицца 'Дор Блю'",
+      "size": 32,
+      "weight": 500,
       "ingredientsRange": [
         "тесто",
         "сыр 'Моцарелла'",
-        "пеперони",
+        "сыр 'Дор Блю'",
+        "грудинка копченая",
         "соус томатный"
       ],
       "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
+        "score": 4.8,
+        "count": 12
       },
-      "price": 20
+      "price": 22,
+      "imgUrl": "https://media.tenor.com/vADKbpqeAtYAAAAd/gachi-gachimuchi.gif"
+    },
+    {
+      "id": 4,
+      "companyId": 2,
+      "productType": {
+        "id": 1,
+        "name": "pizza",
+        "nameRu": "пиццы"
+      },
+      "name": "Пицца 'Барбекю'",
+      "size": 32,
+      "weight": 550,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "свинина",
+        "грудинка",
+        "куриное филе",
+        "лук",
+        "шампиньоны",
+        "шпинат",
+        "соус томатный"
+      ],
+      "reviewsInfo": {
+        "score": 4.4,
+        "count": 24
+      },
+      "price": 25,
+      "imgUrl": "https://media.tenor.com/oRrZ8KKx-XMAAAAd/aniki-gachi-dress-shirt-rip-on-off.gif"
     },
     {
       "id": 2,
@@ -254,21 +288,22 @@
           "name": "salads",
           "nameRu": "салаты"
       },
-      "name": "Пицца 'Кок в рот'",
-      "size": 30,
-      "weight": 650,
+      "name": "Салат 'Цезарь'",
+      "size": 10,
+      "weight": 330,
       "ingredientsRange": [
-        "тесто",
-        "сыр 'Моцарелла'",
-        "пеперони",
-        "соус томатный"
+        "куриное филе",
+        "сыр 'Пармезан'",
+        "яйцо",
+        "помидор",
+        "салатные листья"
       ],
       "reviewsInfo": {
         "score": 4.5,
         "count": 31
       },
-      "price": 69,
-      "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
+      "price": 15,
+      "imgUrl": "https://sun9-46.userapi.com/impf/c856136/v856136576/86deb/-6ypdR1s2c8.jpg?size=438x604&quality=96&sign=6d8553d355927a7777336570d4eb571c&type=album"
     },
     {
       "id": 3,
@@ -278,15 +313,16 @@
         "name": "soups",
         "nameRu": "супы"
       },
-      "name": "Шаурма 'Хот Дог'",
-      "size": 30,
-      "weight": 650,
-      "ingredientsRange": ["тесто", "собачатина", "соус из мочи собаки"],
+      "name": "Суп 'Харчо'",
+      "size": 10,
+      "weight": 300,
+      "ingredientsRange": ["рис", "вода", "говядина", "харча"],
       "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
+        "score": 3.2,
+        "count": 11
       },
-      "price": 96
+      "price": 10,
+      "imgUrl": "https://media.tenor.com/rJIm5UTyLhcAAAAC/gachi.gif"
     },
     {
       "id": 1,
@@ -296,20 +332,23 @@
         "name": "hot meals",
         "nameRu": "горячие блюда"
       },
-      "name": "Пицца 'Пеперони'",
-      "size": 30,
-      "weight": 650,
+      "name": "Чашушули",
+      "size": 10,
+      "weight": 370,
       "ingredientsRange": [
-        "тесто",
-        "сыр 'Моцарелла'",
-        "пеперони",
-        "соус томатный"
+        "говядина",
+        "баклажан",
+        "сладкий перец",
+        "чеснок",
+        "лук",
+        "зелень"
       ],
       "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
+        "score": 3.5,
+        "count": 34
       },
-      "price": 20
+      "price": 18,
+      "imgUrl": "https://lastfm.freetls.fastly.net/i/u/ar0/9c388a8db4c08b9c92e6dedab9d6b41c.jpg"
     },
     {
       "id": 2,
@@ -319,20 +358,48 @@
         "name": "sushi",
         "nameRu": "суши"
       },
-      "name": "Пицца 'Кок в рот'",
-      "size": 30,
-      "weight": 650,
+      "name": "Ролл 'Гоа'",
+      "size": 45,
+      "weight": 900,
       "ingredientsRange": [
-        "тесто",
-        "сыр 'Моцарелла'",
-        "пеперони",
-        "соус томатный"
+        "рис",
+        "нори",
+        "креветки",
+        "сыр",
+        "манго",
+        "кунжут"
       ],
       "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
+        "score": 4.3,
+        "count": 194
       },
-      "price": 69
+      "price": 41,
+      "imgUrl": "https://media.tenor.com/Dx8XeOcQDpUAAAAM/gachi-gachi-muchi.gif"
+    },
+    {
+      "id": 4,
+      "companyId": 3,
+      "productType": {
+        "id": 3,
+        "name": "sushi",
+        "nameRu": "суши"
+      },
+      "name": "Ролл 'Акасака'",
+      "size": 45,
+      "weight": 900,
+      "ingredientsRange": [
+        "рис",
+        "нори",
+        "лосось",
+        "сыр",
+        "огурец"
+      ],
+      "reviewsInfo": {
+        "score": 4.9,
+        "count": 168
+      },
+      "price": 37,
+      "imgUrl": "data:image/jpeg;base64,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"
     },
     {
       "id": 3,
@@ -342,16 +409,16 @@
         "name": "shaurma",
         "nameRu": "шаурма"
       },
-      "name": "Шаурма 'Хот Дог'",
-      "size": 30,
-      "weight": 650,
-      "ingredientsRange": ["тесто", "собачатина", "соус из мочи собаки"],
+      "name": "Шаурма 'Вандамовская'",
+      "size": 20,
+      "weight": 300,
+      "ingredientsRange": ["салат", "помидоры", "огурцы", "лаваш"],
       "reviewsInfo": {
-        "score": 4.5,
-        "count": 31
+        "score": 2.3,
+        "count": 18
       },
-      "price": 96,
-      "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
+      "price": 8,
+      "imgUrl": "https://steamuserimages-a.akamaihd.net/ugc/854978386864734031/279D47D13930EB2DEDCB60485B7EF7AEAC3489DA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
     }
   ],
   "productTypes": [
