@@ -168,6 +168,89 @@
         "nameRu": "пиццы"
       },
       "name": "Пицца 'Кок в рот'",
+      "size": 25,
+      "weight": 750,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Чедр'",
+        "острый перец",
+        "кок",
+        "соус терияки"
+      ],
+      "reviewsInfo": {
+        "score": 4.9,
+        "count": 15
+      },
+      "price": 69
+    },
+    {
+      "id": 3,
+      "companyId": 1,
+      "productType": {
+        "id": 2,
+        "name": "shaurma",
+        "nameRu": "шаурма"
+      },
+      "name": "Шаурма 'Хот Дог'",
+      "size": 15,
+      "weight": 280,
+      "ingredientsRange": ["тесто", "собачатина", "соус из мочи собаки"],
+      "reviewsInfo": {
+        "score": 4.2,
+        "count": 20
+      },
+      "price": 5
+    },
+    {
+      "id": 4,
+      "companyId": 1,
+      "productType": {
+        "id": 4,
+        "name": "burgers",
+        "nameRu": "бургеры"
+      },
+      "name": "Бургер 'Большой белый'",
+      "size": 10,
+      "weight": 300,
+      "ingredientsRange": ["булочки Биллие", "котлетка Билли", "огурчик Билли", "соус Билли"],
+      "reviewsInfo": {
+        "score": 3.7,
+        "count": 4
+      },
+      "price": 30
+    },
+    {
+      "id": 1,
+      "companyId": 2,
+      "productType": {
+        "id": 1,
+        "name": "pizza",
+        "nameRu": "пиццы"
+      },
+      "name": "Пицца 'Пеперони'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "пеперони",
+        "соус томатный"
+      ],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "price": 20
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "productType": {
+          "id": 8,
+          "name": "salads",
+          "nameRu": "салаты"
+      },
+      "name": "Пицца 'Кок в рот'",
       "size": 30,
       "weight": 650,
       "ingredientsRange": [
@@ -184,7 +267,71 @@
     },
     {
       "id": 3,
-      "companyId": 1,
+      "companyId": 2,
+      "productType": {
+        "id": 5,
+        "name": "soups",
+        "nameRu": "супы"
+      },
+      "name": "Шаурма 'Хот Дог'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": ["тесто", "собачатина", "соус из мочи собаки"],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "price": 96
+    },
+    {
+      "id": 1,
+      "companyId": 3,
+      "productType": {
+        "id": 6,
+        "name": "hot meals",
+        "nameRu": "горячие блюда"
+      },
+      "name": "Пицца 'Пеперони'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "пеперони",
+        "соус томатный"
+      ],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "price": 20
+    },
+    {
+      "id": 2,
+      "companyId": 3,
+      "productType": {
+        "id": 3,
+        "name": "sushi",
+        "nameRu": "суши"
+      },
+      "name": "Пицца 'Кок в рот'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": [
+        "тесто",
+        "сыр 'Моцарелла'",
+        "пеперони",
+        "соус томатный"
+      ],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "price": 69
+    },
+    {
+      "id": 3,
+      "companyId": 3,
       "productType": {
         "id": 2,
         "name": "shaurma",
