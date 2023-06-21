@@ -40,15 +40,18 @@
       "productTypeRange": [
         {
           "id": 1,
-          "name": "пиццы"
+          "name": "pizza",
+          "nameRu": "пиццы"
         },
         {
           "id": 2,
-          "name": "шаурма"
+          "name": "shaurma",
+          "nameRu": "шаурма"
         },
         {
           "id": 4,
-          "name": "бургеры"
+          "name": "burgers",
+          "nameRu": "бургеры"
         }
       ],
       "location": "витебск",
@@ -71,15 +74,18 @@
       "productTypeRange": [
         {
           "id": 1,
-          "name": "пицца"
+          "name": "pizza",
+          "nameRu": "пиццы"
         },
         {
           "id": 5,
-          "name": "супы"
+          "name": "soups",
+          "nameRu": "супы"
         },
         {
           "id": 8,
-          "name": "салаты"
+          "name": "salads",
+          "nameRu": "салаты"
         }
       ],
       "location": "витебск",
@@ -104,15 +110,18 @@
       "productTypeRange": [
         {
           "id": 2,
-          "name": "шаурма"
+          "name": "shaurma",
+          "nameRu": "шаурма"
         },
         {
           "id": 3,
-          "name": "суши"
+          "name": "sushi",
+          "nameRu": "суши"
         },
         {
           "id": 6,
-          "name": "горячие блюда"
+          "name": "hot meals",
+          "nameRu": "горячие блюда"
         }
       ],
       "location": "минск",
@@ -132,7 +141,8 @@
       "companyId": 1,
       "productType": {
         "id": 1,
-        "name": "пиццы"
+        "name": "pizza",
+        "nameRu": "пиццы"
       },
       "name": "Пицца 'Пеперони'",
       "size": 30,
@@ -146,14 +156,16 @@
       "reviewsInfo": {
         "score": 4.5,
         "count": 31
-      }
+      },
+      "price": 20
     },
     {
       "id": 2,
       "companyId": 1,
       "productType": {
         "id": 1,
-        "name": "пиццы"
+        "name": "pizza",
+        "nameRu": "пиццы"
       },
       "name": "Пицца 'Кок в рот'",
       "size": 30,
@@ -167,7 +179,26 @@
       "reviewsInfo": {
         "score": 4.5,
         "count": 31
-      }
+      },
+      "price": 69
+    },
+    {
+      "id": 3,
+      "companyId": 1,
+      "productType": {
+        "id": 2,
+        "name": "shaurma",
+        "nameRu": "шаурма"
+      },
+      "name": "Шаурма 'Хот Дог'",
+      "size": 30,
+      "weight": 650,
+      "ingredientsRange": ["тесто", "собачатина", "соус из мочи собаки"],
+      "reviewsInfo": {
+        "score": 4.5,
+        "count": 31
+      },
+      "price": 96
     }
   ],
   "productTypes": [
