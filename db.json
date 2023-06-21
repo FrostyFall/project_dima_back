@@ -55,7 +55,8 @@
         }
       ],
       "location": "витебск",
-      "paymentMethods": [{ "id": 1, "name": "cash", "nameRu": "наличными" }]
+      "paymentMethods": [{ "id": 1, "name": "cash", "nameRu": "наличными" }],
+      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
     },
     {
       "id": 2,
@@ -91,7 +92,8 @@
       "location": "витебск",
       "paymentMethods": [
         { "id": 2, "name": "card-online", "nameRu": "картой онлайн" }
-      ]
+      ],
+      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
     },
     {
       "id": 3,
@@ -127,7 +129,8 @@
       "location": "минск",
       "paymentMethods": [
         { "id": 3, "name": "card-courier", "nameRu": "картой курьеру" }
-      ]
+      ],
+      "imgUrl": "https://s5o.ru/storage/simple/cyber/edt/bb/f9/38/f5/cyberef95b3ecf51.jpg"
     }
   ],
   "paymentMethods": [
@@ -157,7 +160,8 @@
         "score": 4.5,
         "count": 31
       },
-      "price": 20
+      "price": 20,
+      "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
     },
     {
       "id": 2,
@@ -180,7 +184,8 @@
         "score": 4.5,
         "count": 31
       },
-      "price": 69
+      "price": 69,
+      "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
     },
     {
       "id": 3,
@@ -198,7 +203,8 @@
         "score": 4.5,
         "count": 31
       },
-      "price": 96
+      "price": 96,
+      "imgUrl": "https://i1.sndcdn.com/artworks-000635780677-yhmbpw-t500x500.jpg"
     }
   ],
   "productTypes": [
